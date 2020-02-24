@@ -1,0 +1,11 @@
+{
+  "name": "node_practice",
+  "version": "1.0.0",
+  "description": "This is my first Node Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aaroncosmith@gmail.com",
+  "license": "ISC"
+}
