@@ -41,4 +41,4 @@ Card.prototype.getImageUrl = function() {
 myCard.getImageUrl();
 
 //Hand Constructor
-
+class
