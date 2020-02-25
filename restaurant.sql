@@ -27,7 +27,7 @@ CREATE TABLE reviewer(
 
 CREATE TABLE review(
     id SERIAL PRIMARY KEY,
-    reviewerid INT REFERENCES review(id)
+    reviewerid INT REFERENCES review(id),
     -- REVIEWER ID USING A FOREIGN KEY CONSTRAINT
     stars numeric CHECK (stars >= 1 and stars <= 5),
     title text,
