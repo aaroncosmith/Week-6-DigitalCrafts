@@ -25,11 +25,12 @@ class Person {
         console.log(`This is ${person.name}, they are ${person.age} years old.`)
     }
 }
-
-
 const me = new Person("Aaron", 24);
-me.sayHello();
-me.describe();
+const jason = new Person("Jason", 25);
+Person.introduce(jason);
+
+// me.sayHello();
+// me.describe();
 class Teacher extends Person {
     teach(subject) {
         console.log(`${this.name} teaches ${subject}.`);
