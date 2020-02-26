@@ -1,0 +1,13 @@
+<!-- <p>this is the foo partial</p> -->
+
+<ul>
+    ${arrayOfData.map(item => {
+        return `<li>${item.name}: ${item.zord}</li>`
+    }).join('')}
+</ul>
+<!-- the join (.join(''))takes the comma out of the map function -->
+
+<!-- this is a standard map function using them cash curlies
+${arrayOfData.map(item => {
+    `<p>${item.name}: ${item.zord}</p>`
+})} -->

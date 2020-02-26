@@ -1,5 +1,13 @@
-const express = require('express');
-const app = express();
+const express = require('express'),
+    es6Renderer = require('express-es6-template-engine'),
+    app = express();
+
+// use the es6Renderer engine
+app.engine('html', es6Renderer);
+// tell where views are located
+app.set('views', 'views');
+// output will be html
+app.set('view engine', 'html')
 
 app.listen(3333, () => {
     console.log("Server running on port 3333, just to let you know ;)")
