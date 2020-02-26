@@ -1,0 +1,96 @@
+aaron🍕~/crafts/week6-7:mkdir my_first_express
+aaron🍕~/crafts/week6-7:cd my_first_express/
+aaron🍕~/crafts/week6-7/my_first_express:
+aaron🍕~/crafts/week6-7/my_first_express:npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (my_first_express) 
+version: (1.0.0) 0.0.1
+description: My first Express + Node App
+entry point: (index.js) app.js
+test command: 
+git repository: 
+keywords: Node, Express, JS. 
+author: Aaron Smith
+license: (ISC) 
+About to write to /Users/aaron/crafts/week6-7/my_first_express/package.json:
+
+{
+  "name": "my_first_express",
+  "version": "0.0.1",
+  "description": "My first Express + Node App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "JS."
+  ],
+  "author": "Aaron Smith",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) 
+
+
+   ╭────────────────────────────────────────────────────────────────╮
+   │                                                                │
+   │      New patch version of npm available! 6.13.4 → 6.13.7       │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v6.13.7   │
+   │               Run npm install -g npm to update!                │
+   │                                                                │
+   ╰────────────────────────────────────────────────────────────────╯
+
+aaron🍕~/crafts/week6-7/my_first_express:npm install -g npm
+/Users/aaron/.nvm/versions/node/v13.6.0/bin/npm -> /Users/aaron/.nvm/versions/node/v13.6.0/lib/node_modules/npm/bin/npm-cli.js
+/Users/aaron/.nvm/versions/node/v13.6.0/bin/npx -> /Users/aaron/.nvm/versions/node/v13.6.0/lib/node_modules/npm/bin/npx-cli.js
++ npm@6.13.7
+added 7 packages from 3 contributors, removed 3 packages and updated 12 packages in 12.746s
+aaron🍕~/crafts/week6-7/my_first_express:ls
+package.json
+aaron🍕~/crafts/week6-7/my_first_express:code package.json 
+aaron🍕~/crafts/week6-7/my_first_express:code .
+aaron🍕~/crafts/week6-7/my_first_express:code app.js
+aaron🍕~/crafts/week6-7/my_first_express:npm install express
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN my_first_express@0.0.1 No repository field.
+
++ express@4.17.1
+added 50 packages from 37 contributors and audited 126 packages in 6.987s
+found 0 vulnerabilities
+
+aaron🍕~/crafts/week6-7/my_first_express:npm i body-parser
+npm WARN my_first_express@0.0.1 No repository field.
+
++ body-parser@1.19.0
+updated 1 package and audited 158 packages in 1.16s
+found 0 vulnerabilities
+
+aaron🍕~/crafts/week6-7/my_first_express:node app.js
+Server running on port 3333
+^C
+aaron🍕~/crafts/week6-7/my_first_express:node app.js
+Server running on port 3333
+^C
+aaron🍕~/crafts/week6-7/my_first_express:node app.js
+Server running on port 3333
+^[[A^C
+aaron🍕~/crafts/week6-7/my_first_express:node app.js
+Server running on port 3333
+aaron🍕~/crafts/week6-7/my_first_express:node app.js
+Server running on port 3333
+^C
+aaron🍕~/crafts/week6-7/my_first_express:node app.js
+Server running on port 3333
+^C
