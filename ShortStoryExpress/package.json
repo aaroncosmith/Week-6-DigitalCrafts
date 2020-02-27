@@ -1,0 +1,15 @@
+{
+  "name": "shortstoryexpress",
+  "version": "0.0.1",
+  "description": "short story delivered from the back end",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Smith",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-es6-template-engine": "^2.2.1"
+  }
+}
