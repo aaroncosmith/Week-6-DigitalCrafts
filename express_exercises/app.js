@@ -18,7 +18,8 @@ catController = require('./routes/cat'),
 dogController = require('./routes/dog'),
 personController = require('./routes/person'),
 fooController = require('./routes/foo'),
-greetController = require('./routes/greet');
+greetController = require('./routes/greet'),
+ceosController = require('./routes/ceos');
 
 app.use('/', rootController);
 app.use('/cat', catController);
@@ -26,6 +27,7 @@ app.use('/dog', dogController);
 app.use('/person', personController);
 app.use('/foo', fooController);
 app.use('/greet', greetController);
+app.use('/ceos', ceosController);
 
 
 
